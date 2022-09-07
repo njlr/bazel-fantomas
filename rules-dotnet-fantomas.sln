@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "app", "app\app.fsproj", "{A84BCED7-4DB2-4079-A9D6-7E61B350E3AB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "public-suffix-list", "public-suffix-list\public-suffix-list.fsproj", "{F3B5E758-A21D-42D1-9F18-8E11AB985101}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84BCED7-4DB2-4079-A9D6-7E61B350E3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84BCED7-4DB2-4079-A9D6-7E61B350E3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84BCED7-4DB2-4079-A9D6-7E61B350E3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84BCED7-4DB2-4079-A9D6-7E61B350E3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B5E758-A21D-42D1-9F18-8E11AB985101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5E758-A21D-42D1-9F18-8E11AB985101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B5E758-A21D-42D1-9F18-8E11AB985101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B5E758-A21D-42D1-9F18-8E11AB985101}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -30,7 +30,7 @@ jobs:
         DOTNET_NOLOGO: true
       run: |
         dotnet tool restore
-        dotnet build ./app
+        dotnet build
         ./check-format.sh
         bazel build //...
         bazel test //...
