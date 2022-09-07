@@ -1,0 +1,22 @@
+exports_files([
+  "fantomas.sh",
+  ".editorconfig",
+])
+
+sh_library(
+  name = "fantomas_lib",
+  data = [
+    "@fantomas//:srcs",
+  ],
+)
+
+sh_binary(
+  name = "fantomas",
+  srcs = [ "fantomas.sh" ],
+  deps = [
+    ":fantomas_lib",
+  ],
+  visibility = [
+    "//visibility:public",
+  ],
+)

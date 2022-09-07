@@ -1,0 +1,9 @@
+load("//:fantomas.bzl", "fantomas_check")
+
+fantomas_check(
+  name = "app",
+  editor_config = "//:.editorconfig",
+  srcs = glob([
+    "*.fs",
+  ]),
+)
